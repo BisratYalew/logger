@@ -58,7 +58,7 @@ func (l *httpLogger) LogResponse(req *http.Request, res *http.Response, err erro
 Output:
 
 ```
-% go run example/example.go
+% go run test/test.go
 log - 2018/07/04 12:59:39 Request GET http://github.com
 log - 2018/07/04 12:59:39 Response method=GET status=302
 durationMs=101 http://github.com
